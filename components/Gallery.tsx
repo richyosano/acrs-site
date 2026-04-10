@@ -24,12 +24,21 @@ const GALLERY_DATA: Record<number, GalleryYearData> = {
   2026: [],
   2025: [
     {
-      name: "Keynotes",
+      name: "Keynote",
       items: [
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Keynotes/CC-03-2.jpg" },
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Keynotes/CC-33.jpg" },
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Keynotes/CC-46.jpg" },
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Keynotes/CC-56.jpg" }
+      ]
+    },
+    {
+      name: "Addresses",
+      items: [
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/ACR-037.jpg" },
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/CC-113.jpg" },
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/Help-022.jpg" },
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/Help-028.jpg" }
       ]
     },
     {
@@ -42,6 +51,15 @@ const GALLERY_DATA: Record<number, GalleryYearData> = {
       ]
     },
     {
+      name: "ACRA Cohort 1 Announcement",
+      items: [
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-045.jpg" },
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-056.jpg" },
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-066.jpg" },
+        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-075.jpg" }
+      ]
+    },
+    {
       name: "Networking & Workshop",
       items: [
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Networking%20%26%20Workshop/ACR-107.jpg" },
@@ -51,30 +69,12 @@ const GALLERY_DATA: Record<number, GalleryYearData> = {
       ]
     },
     {
-      name: "ACRA Cohort 1",
-      items: [
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-045.jpg" },
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-056.jpg" },
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-066.jpg" },
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/ACRA%20Cohort%201%20Announcement/Help-075.jpg" }
-      ]
-    },
-    {
       name: "Legion 44 Movie Premier",
       items: [
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Legion%2044%20Movie%20Premier/Help-159.jpg" },
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Legion%2044%20Movie%20Premier/Help-171.jpg" },
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Legion%2044%20Movie%20Premier/Help-198.jpg" },
         { src: "https://africacarbonremovalsummit.com/2025%20Images/Legion%2044%20Movie%20Premier/Help-216.jpg" }
-      ]
-    },
-    {
-      name: "Addresses",
-      items: [
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/ACR-037.jpg" },
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/CC-113.jpg" },
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/Help-022.jpg" },
-        { src: "https://africacarbonremovalsummit.com/2025%20Images/Addresses/Help-028.jpg" }
       ]
     }
   ]
