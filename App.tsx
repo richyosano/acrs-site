@@ -202,7 +202,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="container mx-auto px-6 mt-8 pt-6 border-t border-brand-800 text-xs text-center opacity-60">
-      © 2026 Kuehne Climate Center. All rights reserved.
+      © 2026 Carbon Removal Kenya. All rights reserved.
     </div>
   </footer>
 );
@@ -265,7 +265,7 @@ const App: React.FC = () => {
                </div>
                <div className="text-lg text-stone-600 mb-10 max-w-lg leading-relaxed space-y-4">
                  <p>
-                   The Africa Carbon Removal Summit (ACRS) 2026 brings global and local leaders to Nairobi to accelerate real-world carbon removal across Kenya and Sub-Saharan Africa.
+                   The Africa Carbon Removal Summit (ACRS) 2026 brings global and local leaders across Kenya and the African continent.
                  </p>
                  <p>
                    Africa’s flagship CDR summit. Don’t miss your seat at the table.
@@ -324,7 +324,7 @@ const App: React.FC = () => {
                    </div>
                  </div>
                  <p className="text-xs text-stone-500 leading-relaxed">
-                   Uniting stakeholders across Africa and the globe to discuss financing and scalability of CDR projects.
+                   Uniting stakeholders across Africa and the globe to discuss the status and scalability of the CDR sector.
                  </p>
                </motion.div>
 
@@ -366,7 +366,7 @@ const App: React.FC = () => {
                    It brings together multi-sector stakeholders to spark ideas, scale solutions, and drive progress across the carbon removal ecosystem in Africa.
                  </p>
                  <p className="text-stone-600 mb-8 leading-relaxed text-lg">
-                   Planned and organized through a tripartite collaboration between the Kuehne Climate Center, Carbon Removal Kenya, and the Africa Carbon Removal Accelerator, ACRS is evolving into a leading platform for both in-person and digital engagement.
+                   Planned and organized through a collaboration between the Kuehne Climate Center, Carbon Removal Kenya, and the Africa Carbon Removal Accelerator, ACRS is evolving into a leading platform for both in-person and digital engagement.
                  </p>
                  <button onClick={scrollToProgram} className="text-brand-600 font-bold hover:underline flex items-center gap-2 text-lg group">
                    Explore ACRS 2026 Program <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -389,7 +389,7 @@ const App: React.FC = () => {
                       <Users size={24} />
                    </div>
                    <h3 className="font-bold text-xl mb-3 text-stone-800 group-hover:text-white transition-colors">Convene</h3>
-                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-blue-50 transition-colors">Unite policymakers, innovators, and communities to build a cohesive CDR ecosystem.</p>
+                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-blue-50 transition-colors">Unite policymakers, innovators, researchers, scientists and more to build a cohesive CDR ecosystem.</p>
                 </div>
                 
                 {/* Regenerate */}
@@ -398,7 +398,7 @@ const App: React.FC = () => {
                       <Sprout size={24} />
                    </div>
                    <h3 className="font-bold text-xl mb-3 text-stone-800 group-hover:text-white transition-colors">Regenerate</h3>
-                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-emerald-50 transition-colors">Promote durable carbon removal pathways delivering climate, economic, and social co-benefits.</p>
+                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-emerald-50 transition-colors">Restore natural systems and promote durable carbon removal pathways delivering climate, economic, and social co-benefits.</p>
                 </div>
 
                 {/* Steward */}
@@ -407,7 +407,7 @@ const App: React.FC = () => {
                       <ShieldCheck size={24} />
                    </div>
                    <h3 className="font-bold text-xl mb-3 text-stone-800 group-hover:text-white transition-colors">Steward</h3>
-                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-indigo-50 transition-colors">Ensure environmental integrity, transparency, and sustainability in CDR project development.</p>
+                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-indigo-50 transition-colors">Ensure environmental integrity, transparency, and sustainability in CDR sector development.</p>
                 </div>
               </div>
             </div>
