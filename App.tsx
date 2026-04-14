@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ArrowRight, Twitter, Linkedin, Facebook, Leaf, Globe, Users, Calendar, PlayCircle, Sprout, Zap, Network, Lightbulb, ShieldCheck } from 'lucide-react';
+import { Menu, X, ArrowRight, Twitter, Linkedin, Facebook, Leaf, Globe, Users, Calendar, PlayCircle, Sprout, Zap, Network, Lightbulb, ShieldCheck, Milestone } from 'lucide-react';
 import { Agenda } from './components/Agenda';
 import { Gallery } from './components/Gallery';
 
@@ -392,13 +392,13 @@ const App: React.FC = () => {
                    <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-blue-50 transition-colors">Unite policymakers, innovators, researchers, scientists and more to build a cohesive CDR ecosystem.</p>
                 </div>
                 
-                {/* Regenerate */}
-                <div className="group flex flex-col h-full bg-stone-50 p-8 rounded-3xl transition-all duration-300 hover:shadow-xl hover:bg-emerald-500 hover:-translate-y-1">
-                   <div className="w-12 h-12 bg-emerald-100 rounded-2xl flex items-center justify-center text-emerald-600 mb-6 group-hover:bg-white/20 group-hover:text-white transition-colors">
-                      <Sprout size={24} />
+                {/* Roadmap */}
+                <div className="group flex flex-col h-full bg-stone-50 p-8 rounded-3xl transition-all duration-300 hover:shadow-xl hover:bg-teal-500 hover:-translate-y-1">
+                   <div className="w-12 h-12 bg-teal-100 rounded-2xl flex items-center justify-center text-teal-600 mb-6 group-hover:bg-white/20 group-hover:text-white transition-colors">
+                      <Milestone size={24} />
                    </div>
-                   <h3 className="font-bold text-xl mb-3 text-stone-800 group-hover:text-white transition-colors">Regenerate</h3>
-                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-emerald-50 transition-colors">Restore natural systems and promote durable carbon removal pathways delivering climate, economic, and social co-benefits.</p>
+                   <h3 className="font-bold text-xl mb-3 text-stone-800 group-hover:text-white transition-colors">Roadmap</h3>
+                   <p className="text-sm text-stone-600 leading-relaxed flex-grow group-hover:text-teal-50 transition-colors">Chart strategic pathways and clear milestones to guide the responsible growth and scaling of the carbon removal sector.</p>
                 </div>
 
                 {/* Steward */}
